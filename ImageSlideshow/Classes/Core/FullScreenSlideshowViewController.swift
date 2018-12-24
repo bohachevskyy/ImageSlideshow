@@ -63,6 +63,7 @@ open class FullScreenSlideshowViewController: UIViewController {
 
     override open func viewDidLoad() {
         super.viewDidLoad()
+        UIApplication.shared.statusBarStyle = .lightContent
 
         view.backgroundColor = backgroundColor
         slideshow.frame = view.frame
